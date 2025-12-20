@@ -9,9 +9,14 @@
     <body>
 
         <div class="row m-1" id="Rmainpage">
-            <div class="text-center p-3" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-info" onclick="location.href='../Virtual/Virtual.html'">Monde personnelle</button>
-                <button type="button" class="btn btn-info" onclick="location.href='RealLife.html'">Monde informatique</button>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Activités
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="RealLife.html">Vie étudiante</a></li>
+                    <li><a class="dropdown-item" href="../Virtual/Virtual.html">Vie personnelle</a></li>
+                </ul>
             </div>
 
             <p class="col-4 bg-secondary text-light text-center bg-opacity-50 rounded m-4 p-3 mb-auto">
