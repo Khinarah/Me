@@ -5,11 +5,10 @@
   width: 100%;
 }
 
-/*
-body{ 
-    background-color: gray ;
+body {
+  background-color: gray;
 }
-*/
+
 .accordion-button {
   background-color: #66005A !important;
   color: white !important;
