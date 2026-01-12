@@ -24,4 +24,20 @@ body {
   width: 100%;
   background-color: black;
   color: #AD5FAD;
+}
+
+.btn {
+  background-color: #66005A;
+}
+
+span.badge {
+  background-color: #66005A;
+}
+
+li.list-group-item {
+  background-color: #AD5FAD;
+}
+
+.card {
+  background-color: #AD5FAD;
 }/*# sourceMappingURL=Virtual.css.map */
