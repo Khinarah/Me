@@ -1,0 +1,30 @@
+$purple : #66005A ;
+$light-purple : #AD5FAD   ;
+
+header{
+    color: $purple;
+}
+
+#activities {
+    background-color: $purple;
+}
+
+.dropdown-menu {
+    background-color: $purple;
+}
+
+.dropdown-item{
+    background-color: $purple;
+    &:hover{
+        color: $purple !important;
+    }
+    &:focus {
+        background-color: white;
+    }
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    color: $light-purple;
+}

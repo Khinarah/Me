@@ -1,0 +1,27 @@
+header {
+  color: #66005A;
+}
+
+#activities {
+  background-color: #66005A;
+}
+
+.dropdown-menu {
+  background-color: #66005A;
+}
+
+.dropdown-item {
+  background-color: #66005A;
+}
+.dropdown-item:hover {
+  color: #66005A !important;
+}
+.dropdown-item:focus {
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  color: #AD5FAD;
+}/*# sourceMappingURL=Virtual.css.map */

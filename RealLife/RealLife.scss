@@ -2,6 +2,10 @@ $purple : #66005A ;
 $light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
+body { 
+    background-color: $light-purple ;
+}
+
 #activities {
     background-color: $purple;
 }
@@ -20,16 +24,6 @@ $card-border-size : 2px ;
     }
 }
 
-.card-img-top {
-    height : 200px ;
-    object-fit: contain;
-    width: 100%;
-}
-
-body { 
-    background-color: $light-purple ;
-}
-
 .accordion-button {
     background-color: $purple !important;
     color: white !important;
@@ -44,3 +38,8 @@ body {
     border-width: $card-border-size;
 }
 
+.card-img-top {
+    height : 200px ;
+    object-fit: contain;
+    width: 100%;
+}
