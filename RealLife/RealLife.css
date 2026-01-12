@@ -1,3 +1,21 @@
+#activities {
+  background-color: #66005A;
+}
+
+.dropdown-menu {
+  background-color: #66005A;
+}
+
+.dropdown-item {
+  background-color: #66005A;
+}
+.dropdown-item:hover {
+  color: #66005A !important;
+}
+.dropdown-item:focus {
+  background-color: white;
+}
+
 .card-img-top {
   height: 200px;
   -o-object-fit: contain;
@@ -6,7 +24,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #AD5FAD;
 }
 
 .accordion-button {
@@ -15,4 +33,10 @@ body {
 }
 .accordion-button.collapsed {
   background-color: #66005A;
+}
+
+.card {
+  background-color: #66005A;
+  border-color: white;
+  border-width: 2px;
 }/*# sourceMappingURL=RealLife.css.map */

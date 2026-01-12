@@ -1,4 +1,28 @@
 $purple : #66005A ;
+$custom-gray : #AD5FAD   ;
+$card-border-size : 2px ;
+
+#activities {
+    background-color: $purple;
+}
+
+.dropdown-menu {
+    background-color: $purple;
+}
+
+.dropdown-item{
+    background-color: $purple;
+
+    &:hover{
+        color: $purple !important;
+    }
+
+    &:focus {
+        background-color: white;
+    }
+}
+
+
 
 .card-img-top {
     height : 200px ;
@@ -6,19 +30,22 @@ $purple : #66005A ;
     width: 100%;
 }
 
-body{ 
-    background-color: gray ;
+body { 
+    background-color: $custom-gray ;
 }
 
-
-.accordion-button{
+.accordion-button {
     background-color: $purple !important;
     color: white !important;
 
     &.collapsed {
         background-color: $purple ;
     }
+}
 
-    
+.card {
+    background-color: $purple;
+    border-color: white;
+    border-width: $card-border-size;
 }
 
