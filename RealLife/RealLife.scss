@@ -1,5 +1,5 @@
 $purple : #66005A ;
-$custom-gray : #AD5FAD   ;
+$light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
 #activities {
@@ -12,17 +12,13 @@ $card-border-size : 2px ;
 
 .dropdown-item{
     background-color: $purple;
-
     &:hover{
         color: $purple !important;
     }
-
     &:focus {
         background-color: white;
     }
 }
-
-
 
 .card-img-top {
     height : 200px ;
@@ -31,13 +27,12 @@ $card-border-size : 2px ;
 }
 
 body { 
-    background-color: $custom-gray ;
+    background-color: $light-purple ;
 }
 
 .accordion-button {
     background-color: $purple !important;
     color: white !important;
-
     &.collapsed {
         background-color: $purple ;
     }
