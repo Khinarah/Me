@@ -11,82 +11,88 @@
 
     <body>
         
-    <main class="container-fluid" id="Vmainpage">
+    <main class="container-fluid">
 
-        <div class="row m-1 border border-danger ">
-            <p class="col-4 bg-secondary text-light text-center bg-opacity-50 rounded p-3 my-1">
-                Je joue aux jeux-vidéo depuis quasiment 6 ans. 
-                J'ai pu jouer à différents genre mais je joue principalement à des shooter, gacha et rythme. 
-                Si tu souhaites en savoir plus, ça se passe en-dessous :
-            </p>
+        <div class="row m-1">
+            <header class="col-12">
+                <div class="row">
+
+                    <p class="col-4 bg-secondary text-light text-center bg-opacity-50 rounded p-3 my-1">
+                        J'ai principalement 4 loisirs : les jeux-vidéos, le montage, le hardware et la programmation.
+                        J'ai pu découvrir beaucoup de choses dans ces loisirs et honnêtement je m'amuse bien.
+                        Si tu souhaites en savoir plus, ça se passe en-dessous :
+                    </p>
+                    
+                    <div class="dropdown col text-end my-1">
+                        <button type="button" class="btn text-light dropdown-toggle" id="activities" data-bs-toggle="dropdown">
+                            Activités
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-light" href="Virtual.html">personnelles</a></li>
+                            <li><a class="dropdown-item text-light" href="../RealLife/RealLife.html">académiques</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </header>
             
-            <div class="dropdown col border border-primary text-end my-1">
-                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
-                    Activités
-                </button>
-                <ul class="dropdown-menu bg-info">
-                    <li><a class="dropdown-item " href="Virtual.html">personnelles</a></li>
-                    <li><a class="dropdown-item " href="../RealLife/RealLife.html">académiques</a></li>
-                </ul>
-            </div>
-            
-        </div>
-        
-        <div class="row">
+            <section class="row">
+                <h2 class="my-4"><strong>Jeux vidéo</strong></h2>
 
-            <div class="card col bg-dark text-light m-5">
-                <img src="./GameIcons/warframe-card.png" class="card-img-top mt-2" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Warframe</h5>
-                    <p class="card-text">
-                        C'est le jeu auxquels j'ai le plus joué avec plus de 5000 heures. 
-                        Même avec ma progression actuelle, le jeu est en constante évolution.
-                    </p>
-                    <a href="https://www.warframe.com/game/about" class="btn btn-primary">En savoir plus</a>
+                <div class="card col bg-dark text-light m-5">
+                    <img src="./GameIcons/warframe-card.png" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Warframe</h5>
+                        <p class="card-text">
+                            C'est le jeu auxquels j'ai le plus joué avec plus de 5000 heures. 
+                            Même avec ma progression actuelle, le jeu est en constante évolution.
+                        </p>
+                        <a href="https://www.warframe.com/game/about" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card col bg-dark text-light m-5">
-                <img src="./GameIcons/apex-card.jpg" class="card-img-top mt-2" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Apex Legends</h5>
-                    <p class="card-text">
-                        Un battleroyale se combinant avec des champions. Apex Legends est un
-                        jeu où je m'entraîne sur les mouvements pour devenir meilleur.
-                    </p>
-                    <a href="https://www.ea.com/fr/games/apex-legends/apex-legends" class="btn btn-primary">En savoir plus</a>
+                <div class="card col bg-dark text-light m-5">
+                    <img src="./GameIcons/apex-card.jpg" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apex Legends</h5>
+                        <p class="card-text">
+                            Un battleroyale se combinant avec des champions. Apex Legends est un
+                            jeu où je m'entraîne sur les mouvements pour devenir meilleur.
+                        </p>
+                        <a href="https://www.ea.com/fr/games/apex-legends/apex-legends" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card col bg-dark text-light m-5">
-                <img src="./GameIcons/rl-card.jfif" class="card-img-top mt-2" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Rocket League</h5>
-                    <p class="card-text">
-                        Ni fan de football, ni fan de voiture, pourtant je joue à ce jeu. 
-                        C'est un jeu où j'admire le freestyle et la fluidité des mécaniques, 
-                        raison de mon activité sur ce jeu.
-                    </p>
-                    <a href="https://www.rocketleague.com/fr" class="btn btn-primary">En savoir plus</a>
+                <div class="card col bg-dark text-light m-5">
+                    <img src="./GameIcons/rl-card.jfif" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rocket League</h5>
+                        <p class="card-text">
+                            Ni fan de football, ni fan de voiture, pourtant je joue à ce jeu. 
+                            C'est un jeu où j'admire le freestyle et la fluidité des mécaniques, 
+                            raison de mon activité sur ce jeu.
+                        </p>
+                        <a href="https://www.rocketleague.com/fr" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card col bg-dark text-light m-5">
-                <img src="./GameIcons/gi-card.jfif" class="card-img-top mt-2" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Genshin Impact</h5>
-                    <p class="card-text">
-                        Ce jeu est probablement mon favori. Je trouve que l'univers du jeu 
-                        est riche que ce soit dans l'intrigue ou dans le gameplay. 
-                        Je m'intéresse particulièrement au lore et ses théories.
-                        
-                    </p>
-                    <a href="https://genshin.hoyoverse.com/fr/home?utm_source=fab&utm_medium=home" class="btn btn-primary">En savoir plus</a>
+                <div class="card col bg-dark text-light m-5">
+                    <img src="./GameIcons/gi-card.jfif" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Genshin Impact</h5>
+                        <p class="card-text">
+                            Ce jeu est probablement mon favori. Je trouve que l'univers du jeu 
+                            est riche que ce soit dans l'intrigue ou dans le gameplay. 
+                            Je m'intéresse particulièrement au lore et ses théories.
+                            
+                        </p>
+                        <a href="https://genshin.hoyoverse.com/fr/home?utm_source=fab&utm_medium=home" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
-
+    </div>
     </body>
 
 </html>
