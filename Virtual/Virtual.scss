@@ -5,21 +5,15 @@ header{
     color: $purple;
 }
 
-#activities {
+.navbar.navbar-expand-lg {
     background-color: $purple;
 }
 
-.dropdown-menu {
-    background-color: $purple;
-}
+a {
+    
 
-.dropdown-item{
-    background-color: $purple;
-    &:hover{
-        color: $purple !important;
-    }
-    &:focus {
-        background-color: white;
+    &.navbar-brand {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 

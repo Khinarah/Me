@@ -2,22 +2,11 @@ body {
   background-color: #AD5FAD;
 }
 
-#activities {
-  background-color: #66005A;
-}
-
-.dropdown-menu {
-  background-color: #66005A;
-}
-
-.dropdown-item {
-  background-color: #66005A;
-}
-.dropdown-item:hover {
+a.nav-link.active {
   color: #66005A !important;
 }
-.dropdown-item:focus {
-  background-color: white;
+a.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .accordion-button {
@@ -33,7 +22,6 @@ body {
   border-color: white;
   border-width: 2px;
 }
-
 .card-img-top {
   height: 200px;
   -o-object-fit: contain;

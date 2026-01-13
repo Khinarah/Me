@@ -2,22 +2,12 @@ header {
   color: #66005A;
 }
 
-#activities {
+.navbar.navbar-expand-lg {
   background-color: #66005A;
 }
 
-.dropdown-menu {
-  background-color: #66005A;
-}
-
-.dropdown-item {
-  background-color: #66005A;
-}
-.dropdown-item:hover {
-  color: #66005A !important;
-}
-.dropdown-item:focus {
-  background-color: white;
+a.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
