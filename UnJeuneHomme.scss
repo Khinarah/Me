@@ -1,5 +1,10 @@
 $purple : #66005A ;
+$light-purple : #AD5FAD   ;
 
 body {
     background-color: $purple;
 }
+
+.btn.btn-light {
+    background-color: $light-purple;
+}   

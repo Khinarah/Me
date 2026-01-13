@@ -6,21 +6,13 @@ body {
     background-color: $light-purple ;
 }
 
-#activities {
-    background-color: $purple;
-}
-
-.dropdown-menu {
-    background-color: $purple;
-}
-
-.dropdown-item{
-    background-color: $purple;
-    &:hover{
+a {
+    &.nav-link.active{
         color: $purple !important;
     }
-    &:focus {
-        background-color: white;
+
+    &.navbar-brand {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
@@ -32,14 +24,15 @@ body {
     }
 }
 
-.card {
+.card{
     background-color: $purple;
     border-color: white;
     border-width: $card-border-size;
+
+    &-img-top {
+        height : 200px ;
+        object-fit: contain;
+        width: 100%;
+    }
 }
 
-.card-img-top {
-    height : 200px ;
-    object-fit: contain;
-    width: 100%;
-}
