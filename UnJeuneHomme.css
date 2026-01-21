@@ -2,6 +2,10 @@ body {
   background-color: #66005A;
 }
 
+h1.text-center {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .btn.btn-light {
   background-color: #AD5FAD;
 }/*# sourceMappingURL=UnJeuneHomme.css.map */

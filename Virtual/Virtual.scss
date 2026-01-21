@@ -10,8 +10,6 @@ header{
 }
 
 a {
-    
-
     &.navbar-brand {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -37,4 +35,8 @@ li.list-group-item {
 
 .card{
     background-color: $light-purple;
+}
+
+.border-2 {
+    border-width: 2px;
 }
