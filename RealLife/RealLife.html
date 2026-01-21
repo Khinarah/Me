@@ -1,292 +1,290 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title> Monde réel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="RealLife.css">
+	<title> Monde réel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="RealLife.css">
 </head>
 <body>
 
 <main class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="../UnJeuneHomme.html">Me.exe</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item mx-4">
-            <a class="nav-link active" aria-current="page" href="../RealLife/RealLife.html">Etudes</a>
-          </li>
-          <li class="nav-item mx-4">
-            <a class="nav-link active" aria-current="page" href="../Virtual/Virtual.html">Loisirs</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+		<div class="container-fluid">
+			<a class="navbar-brand text-light" href="../UnJeuneHomme.html">Me.exe</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item mx-4">
+					<a class="nav-link active" aria-current="page" href="../RealLife/RealLife.html">Portfolio</a>
+				</li>
+				<li class="nav-item mx-4">
+					<a class="nav-link active" aria-current="page" href="../Virtual/Virtual.html">Loisirs</a>
+				</li>
+			</ul>
+			</div>
+		</div>
   </nav>
-    
-    <div class="row m-1">
-			<header class="col-12">
-				<div class="row">
-					<p class="col-4 bg-secondary text-light text-center bg-opacity-50 rounded p-3 my-1">
-							Je m'intéresse à l'informatique depuis 6 ans. 
-							Si je n'avais pas connu la matière Sciences Numériques Technologique (SNT), qui sait vers quel domaine je me serais tourné.
-					</p>
+  	
+	<div class="row m-1">
+	  <header class="">
+			<div class="d-flex justify-content-center">
+				<p class="bg-secondary text-light text-center bg-opacity-50 rounded p-3 my-1">
+					Je m'intéresse à l'informatique depuis 6 ans.
+					Si je n'avais pas connu la matière Sciences Numériques Technologique (SNT) au lycée, 
+					qui sait vers quel domaine je me serais tourné. Voilà ce que j'ai pu apprendre :
+				</p>
+			</div>
+	  </header>
+
+		<section>
+			<h2 class="my-4"><strong>Langages de programmation :</strong></h2>
+
+			<p>J'ai pu utiliser différents langages à différents niveaux de maîtrises. Et honnêtement c'est un plaisir d'apprendre autant de langages. Les détails quant au niveau de chacun sont en dessous.</p>
+
+			<div class="accordion" id="accordionLanguages">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJava" aria-expanded="false" aria-controls="collapseJava">
+							Java
+						</button>
+					</h2>
+					<div id="collapseJava" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages" >
+						<div class="accordion-body">
+							<div class="row ">
+								<div class="col-3">
+									<img src="./LanguageIcons/java-card.jpg" class="card-img-top bg-white " alt="Logo Java">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+										Java est le langage que j'ai le plus approfondi et donc que je maîtrise le plus.
+										J'ai pu apprendre beaucoup de choses intéressantes au niveau de ce langage :
+										aux dernières nouvelles j'ai approfondi la conception objet avec le modèle MVC ainsi que la concurrence avec les threads.
+									</p>
+									<h6 class="">Travaux réalisés :</h6>
+									<a class="mx-2" href="Projets/src/">Course de voiture</a>
+									<a class="mx-2" href="Projets/ProjetL1/">Snake Blockade</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</header>
-        
-        <section>
-            <h2 class="my-4"><strong>Langages de programmation :</strong></h2>
 
-            <p>J'ai pu utiliser différents langages à différents niveaux de maîtrises. Et honnêtement c'est un plaisir d'apprendre autant de langages. Les détails quant au niveau de chacun sont en dessous.</p>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC" aria-expanded="false">
+							C
+						</button>
+					</h2>
+					<div id="collapseC" class="accordion-collapse collapse" data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/c-card.png" class="card-img-top bg-white" alt="Logo C">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Le langage C n'est pas forcément évident à prendre en main et ce que j'ai pu apprendre sur ce langage n'est pas de tout repos.
+									Cela dit les profs m'ont bien ancré dans ce langage donc je m'y intéresse quand même.
+									J'ai pu apprendre à manipuler les commandes de la norme POSIX, assez proche du "noyau".
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-            <div class="accordion" id="accordionLanguages">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJava" aria-expanded="false" aria-controls="collapseJava">
-                            Java
-                        </button>
-                    </h2>
-                    <div id="collapseJava" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages" >
-                        <div class="accordion-body">
-                            <div class="row ">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/java-card.jpg" class="card-img-top bg-white " alt="Logo Java">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                        Java est le langage que j'ai le plus approfondi et donc que je maîtrise le plus. 
-                                        J'ai pu apprendre beaucoup de choses intéressantes au niveau de ce langage : 
-                                        aux dernières nouvelles j'ai approfondi la conception objet avec le modèle MVC ainsi que la concurrence avec les threads.
-                                    </p>
-                                    <h6 class="">Travaux réalisés :</h6>
-                                    <a class="mx-2" href="Projets/src/">Course de voiture</a>
-                                    <a class="mx-2" href="Projets/ProjetL1/">Snake Blockade</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTMLCSS" aria-expanded="false">
+							HTML / CSS
+						</button>
+					</h2>
+					<div id="collapseHTMLCSS" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/htmlcss-card.png" class="card-img-top bg-white " alt="Logo HTML/CSS">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Les premiers langages de programmation que j'ai appris à utiliser au lycée et ceux qui m'ont poussé à m'orienter vers l'informatique.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC" aria-expanded="false">
-                            C
-                        </button>
-                    </h2>
-                    <div id="collapseC" class="accordion-collapse collapse" data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/c-card.png" class="card-img-top bg-white" alt="Logo C">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Le langage C n'est pas forcément évident à prendre en main et ce que j'ai pu apprendre sur ce langage n'est pas de tout repos. 
-                                    Cela dit les profs m'ont bien ancré dans ce langage donc je m'y intéresse quand même. 
-                                    J'ai pu apprendre à manipuler les commandes de la norme POSIX, assez proche du "noyau". 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSQL" aria-expanded="false">
+							SQL
+						</button>
+					</h2>
+					<div id="collapseSQL" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/sql-card.png" class="card-img-top bg-white " alt="Logo SQL">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Parmi les premiers langages que j'ai appris à utiliser.
+									C'est un langage intéressant à comprendre, surtout l'utilisation qui en est faite dans les entreprises.
+									La conception de base de donnée m'a motivé à mieux me les représenter.
+									Bien qu'il ne soit pas facile à sélectionner les bonnes données, les connaissances retirées sont enrichissantes.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTMLCSS" aria-expanded="false">
-                            HTML / CSS
-                        </button>
-                    </h2>
-                    <div id="collapseHTMLCSS" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/htmlcss-card.png" class="card-img-top bg-white " alt="Logo HTML/CSS">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Les premiers langages de programmation que j'ai appris à utiliser au lycée et ceux qui m'ont poussé à m'orienter vers l'informatique.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython" aria-expanded="false">
+							Python
+						</button>
+					</h2>
+					<div id="collapsePython" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/python-card.png" class="card-img-top bg-white " alt="Logo Python">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Un des premiers langages de programmation que j'ai appris à utiliser au lycée avec IPython.
+									Maintenant que j'y pense, Python est un langage simple à manier du fait que les variables n'ont pas besoin d'être déclaré comparé aux autres langages.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSQL" aria-expanded="false">
-                            SQL
-                        </button>
-                    </h2>
-                    <div id="collapseSQL" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/sql-card.png" class="card-img-top bg-white " alt="Logo SQL">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Parmi les premiers langages que j'ai appris à utiliser. 
-                                    C'est un langage intéressant à comprendre, surtout l'utilisation qui en est faite dans les entreprises. 
-                                    La conception de base de donnée m'a motivé à mieux me les représenter. 
-                                    Bien qu'il ne soit pas facile à sélectionner les bonnes données, les connaissances retirées sont enrichissantes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOCaml" aria-expanded="false">
+							OCaml
+						</button>
+					</h2>
+					<div id="collapseOCaml" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/ocaml-card.png" class="card-img-top bg-white " alt="Logo OCaml">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Le seul langage fonctionnel que j'ai appris à utiliser pour le moment et probablement le plus compliqué que j'ai pu connaître jusque là.
+									Bien que ce soit assez compliqué des autres langages de mon point de vue, l'approche est différente de d'habitude, ce qui fait que ce langage est plutôt intéressant au final.
+									</p>
+									<h6 class="">Travaux réalisés</h6>
+									<a href="Projets/projetFC/">Dames chinoises</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython" aria-expanded="false">
-                            Python
-                        </button>
-                    </h2>
-                    <div id="collapsePython" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/python-card.png" class="card-img-top bg-white " alt="Logo Python">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Un des premiers langages de programmation que j'ai appris à utiliser au lycée avec IPython. 
-                                    Maintenant que j'y pense, Python est un langage simple à manier du fait que les variables n'ont pas besoin d'être déclaré comparé aux autres langages.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePHP" aria-expanded="false">
+							PHP
+						</button>
+					</h2>
+					<div id="collapsePHP" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/php-card.png" class="card-img-top bg-white " alt="Logo PHP">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									PHP est un langage que j'ai appris à utiliser avec d'autres notamment dans les bases de données (SQL) et les sites Web (HTML, CSS),
+									ce qui fait que j'ai particulièrement apprécié travailler avec.
+									Je suis surpris de ce qu'on peut faire en combinant des outils, beaucoup d'outils ^^.
+									</p>
+									<h6 class="">Travaux réalisés</h6>
+									<a href="Projets/ProjetWEBL2S4CF/">Site compagnie aérienne</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOCaml" aria-expanded="false">
-                            OCaml
-                        </button>
-                    </h2>
-                    <div id="collapseOCaml" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/ocaml-card.png" class="card-img-top bg-white " alt="Logo OCaml">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Le seul langage fonctionnel que j'ai appris à utiliser pour le moment et probablement le plus compliqué que j'ai pu connaître jusque là. 
-                                    Bien que ce soit assez compliqué des autres langages de mon point de vue, l'approche est différente de d'habitude, ce qui fait que ce langage est plutôt intéressant au final.
-                                    </p>
-                                    <h6 class="">Travaux réalisés</h6>
-                                    <a href="Projets/projetFC/">Dames chinoises</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseASM" aria-expanded="false">
+							ASM
+						</button>
+					</h2>
+					<div id="collapseASM" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col-3">
+									<img src="./LanguageIcons/assembleur-card.png" class="card-img-top bg-white " alt="Logo ASM">
+								</div>
+								<div class="col">
+									<p class="col card-text">
+									Seul langage machine que j'ai pu apprendre à utiliser jusque là.
+									Celui-ci est aussi spécial à manipuler en plus d'être un langage de bas niveau.
+									Il était aussi compliqué qu'OCaml à manipuler comparé aux autres langages.
+									Je suis curieux par conséquent ce que donnent les langages de plus hauts niveaux.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePHP" aria-expanded="false">
-                            PHP
-                        </button>
-                    </h2>
-                    <div id="collapsePHP" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/php-card.png" class="card-img-top bg-white " alt="Logo PHP">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    PHP est un langage que j'ai appris à utiliser avec d'autres notamment dans les bases de données (SQL) et les sites Web (HTML, CSS), 
-                                    ce qui fait que j'ai particulièrement apprécié travailler avec. 
-                                    Je suis surpris de ce qu'on peut faire en combinant des outils, beaucoup d'outils ^^.
-                                    </p>
-                                    <h6 class="">Travaux réalisés</h6>
-                                    <a href="Projets/ProjetWEBL2S4CF/">Site compagnie aérienne</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+		<section class="my-4">
+			<h2><strong>Outils</strong></h2>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseASM" aria-expanded="false">
-                            ASM
-                        </button>
-                    </h2>
-                    <div id="collapseASM" class="accordion-collapse collapse " data-bs-parent="#accordionLanguages">
-                        <div class="accordion-body">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="./LanguageIcons/assembleur-card.png" class="card-img-top bg-white " alt="Logo ASM">
-                                </div>
-                                <div class="col">
-                                    <p class="col card-text">
-                                    Seul langage machine que j'ai pu apprendre à utiliser jusque là. 
-                                    Celui-ci est aussi spécial à manipuler en plus d'être un langage de bas niveau. 
-                                    Il était aussi compliqué qu'OCaml à manipuler comparé aux autres langages. 
-                                    Je suis curieux par conséquent ce que donnent les langages de plus hauts niveaux.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="my-4">
-            <h2><strong>Outils</strong></h2>
+				<h4 class="mx-2">IDE</h4>
+				<div class="row mx-2">
+					<div class="card col me-3">
+						<img src="ToolsIcons/vscode-card.png" class="card-img-top" alt="Logo VSCode">
+						<div class="card-body">
+							<h5 class="card-title text-light">Visual Studio Code</h5>
+						</div>
+					</div>
 
-                <h4 class="mx-2">IDE</h4>
-                <div class="row mx-2">
-                    <div class="card col me-3">
-                        <img src="ToolsIcons/vscode-card.png" class="card-img-top" alt="Logo VSCode">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Visual Studio Code</h5>
-                        </div>
-                    </div>
-                    
-                    <div class="card col me-3">
-                        <img src="ToolsIcons/androidstudio-card.png" class="card-img-top" alt="Logo Android Studio">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Android Studio</h5>
-                        </div>
-                    </div>
-                </div>
-                
-                <h4 class="mx-2 mt-4">Framework</h4>
-                
-                <div class="row mx-2">
-                    <div class="card col me-3">
-                        <img src="ToolsIcons/bootstrap-card.png" class="card-img-top" alt="Logo Bootstrap">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Bootstrap</h5>
-                        </div>
-                    </div>
-                    
-                    <div class="card col me-3">
-                        <img src="ToolsIcons/laravel-card.png" class="card-img-top" alt="Logo Laravel">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Laravel</h5>
-                        </div>
-                    </div>
-                </div>
-                
-        </section>
-            
-            
-            
-    </div>
-    
+					<div class="card col me-3">
+						<img src="ToolsIcons/androidstudio-card.png" class="card-img-top" alt="Logo Android Studio">
+						<div class="card-body">
+							<h5 class="card-title text-light">Android Studio</h5>
+						</div>
+					</div>
+				</div>
+
+				<h4 class="mx-2 mt-4">Framework</h4>
+
+				<div class="row mx-2">
+					<div class="card col me-3">
+						<img src="ToolsIcons/bootstrap-card.png" class="card-img-top" alt="Logo Bootstrap">
+						<div class="card-body">
+							<h5 class="card-title text-light">Bootstrap</h5>
+						</div>
+					</div>
+
+					<div class="card col me-3">
+						<img src="ToolsIcons/laravel-card.png" class="card-img-top" alt="Logo Laravel">
+						<div class="card-body">
+							<h5 class="card-title text-light">Laravel</h5>
+						</div>
+					</div>
+				</div>
+
+		</section>
+	</div>
+
 </main>
 </body>
 </html>
