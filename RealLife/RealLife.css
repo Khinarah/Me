@@ -9,12 +9,12 @@ a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.accordion-button {
-  background-color: #66005A !important;
+button.nav-link {
   color: white !important;
-}
-.accordion-button.collapsed {
   background-color: #66005A;
+}
+button.active {
+  color: #66005A !important;
 }
 
 .card {

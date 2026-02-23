@@ -16,11 +16,13 @@ a {
     }
 }
 
-.accordion-button {
-    background-color: $purple !important;
-    color: white !important;
-    &.collapsed {
-        background-color: $purple ;
+button {
+    &.nav-link {
+        color: white !important;
+        background-color: $purple;
+    }
+    &.active {
+        color: $purple !important;
     }
 }
 
