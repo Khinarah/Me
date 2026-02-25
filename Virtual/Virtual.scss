@@ -1,5 +1,6 @@
 $purple : #66005A ;
 $light-purple : #AD5FAD   ;
+$card-border-size : 2px ;
 
 header{
     color: $purple;
@@ -35,8 +36,6 @@ li.list-group-item {
 
 .card{
     background-color: $light-purple;
+    border-width: $card-border-size;
 }
 
-.border-2 {
-    border-width: 2px;
-}
