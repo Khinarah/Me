@@ -23,6 +23,7 @@ button {
     }
     &.active {
         color: $purple !important;
+        background-color: gray !important;
     }
 }
 
