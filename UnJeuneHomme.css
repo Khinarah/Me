@@ -8,4 +8,7 @@ h1.text-center {
 
 .btn.btn-light {
   background-color: #AD5FAD;
+}
+.btn.btn-light:hover {
+  background-color: white;
 }/*# sourceMappingURL=UnJeuneHomme.css.map */

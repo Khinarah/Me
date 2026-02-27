@@ -11,4 +11,8 @@ h1.text-center {
 
 .btn.btn-light {
     background-color: $light-purple;
+
+    &:hover {
+        background-color: white;
+    }
 }   
