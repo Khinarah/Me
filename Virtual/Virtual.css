@@ -10,6 +10,10 @@ a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+nav a:hover {
+  color: white !important;
+}
+
 body {
   width: 100%;
   background-color: black;

@@ -11,9 +11,20 @@ header{
 }
 
 a {
-    &.navbar-brand {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  &.navbar-brand {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+}
+
+nav {
+  a {
+    &:hover {
+        color: white !important;
     }
+  } 
+  
 }
 
 body {
