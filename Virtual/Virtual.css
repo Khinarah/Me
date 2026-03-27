@@ -2,26 +2,34 @@ header {
   color: #66005A;
 }
 
-.navbar.navbar-expand-lg {
-  background-color: #66005A;
-}
-
-a.navbar-brand {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-nav a:hover {
-  color: white !important;
-}
-
 body {
   width: 100%;
   background-color: black;
   color: #AD5FAD;
 }
 
+.navbar.navbar-expand-lg {
+  background-color: #66005A;
+}
+.navbar a.navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar a:hover {
+  color: white !important;
+}
+.navbar svg {
+  color: black;
+}
+.navbar svg:hover {
+  color: white !important;
+}
+
 .btn {
   background-color: #66005A;
+}
+.btn:hover {
+  color: #66005A !important;
+  background-color: white;
 }
 
 span.badge {
