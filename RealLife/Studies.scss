@@ -6,20 +6,29 @@ body {
     background-color: $light-purple ;
 }
 
-a {
-    &.nav-link{
-        color: $purple !important;
+.navbar {
+    a {
+        &.nav-link{
+            color: $purple !important;
+    
+            &:hover {
+                color: white !important;
+            }
+        }
+        &.navbar-brand {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
 
+    svg {
+        color: $purple !important;
+        
         &:hover {
             color: white !important;
         }
-    }
-    
-
-    &.navbar-brand {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    }   
 }
+
 
 button {
     &.nav-link {
@@ -31,10 +40,6 @@ button {
         background-color: gray !important;
     }
 
-}
-
-svg {
-    color: $purple;
 }
 
 .card{

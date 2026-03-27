@@ -6,35 +6,39 @@ header{
     color: $purple;
 }
 
-.navbar.navbar-expand-lg {
-    background-color: $purple;
-}
-
-a {
-  &.navbar-brand {
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  
-}
-
-nav {
-  a {
-    &:hover {
-        color: white !important;
-    }
-  } 
-  
-}
-
 body {
     width: 100%;
     background-color: black;
     color: $light-purple;
 }
 
+.navbar {
+    &.navbar-expand-lg {
+        background-color: $purple;
+    }
+    a {
+      &.navbar-brand {
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      &:hover {
+          color: white !important;
+      }
+    }
+    svg {
+        color: black;
+        &:hover {
+            color: white !important;
+        }
+    }
+}
+
 .btn {
     background-color: $purple;
+
+    &:hover {
+        color: $purple !important;
+        background-color: white;
+    }
 }
 
 span.badge {

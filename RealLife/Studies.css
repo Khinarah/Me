@@ -2,14 +2,20 @@ body {
   background-color: #AD5FAD;
 }
 
-a.nav-link {
+.navbar a.nav-link {
   color: #66005A !important;
 }
-a.nav-link:hover {
+.navbar a.nav-link:hover {
   color: white !important;
 }
-a.navbar-brand {
+.navbar a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar svg {
+  color: #66005A !important;
+}
+.navbar svg:hover {
+  color: white !important;
 }
 
 button.nav-link {
@@ -19,10 +25,6 @@ button.nav-link {
 button.active {
   color: #66005A !important;
   background-color: gray !important;
-}
-
-svg {
-  color: #66005A;
 }
 
 .card {
