@@ -4,7 +4,7 @@ header {
 
 body {
   width: 100%;
-  background-color: black;
+  background: radial-gradient(#66005A, black);
   color: #AD5FAD;
 }
 

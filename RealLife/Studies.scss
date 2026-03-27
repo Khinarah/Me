@@ -3,7 +3,11 @@ $light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
 body { 
-    background-color: $light-purple ;
+
+    /* A FINIR */
+    background: radial-gradient($purple, $light-purple, white);
+    animation-name: studiesAnimated;
+    animation-iteration-count: infinite;
 }
 
 .navbar {
@@ -54,3 +58,6 @@ button {
     }
 }
 
+@keyframes studiesAnimated {
+    
+}

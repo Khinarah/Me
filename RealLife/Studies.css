@@ -1,5 +1,8 @@
 body {
-  background-color: #AD5FAD;
+  /* A FINIR */
+  background: radial-gradient(#66005A, #AD5FAD, white);
+  animation-name: studiesAnimated;
+  animation-iteration-count: infinite;
 }
 
 .navbar a.nav-link {
@@ -37,4 +40,6 @@ button.active {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
-}/*# sourceMappingURL=Studies.css.map */
+}
+
+@keyframes studiesAnimated {}/*# sourceMappingURL=Studies.css.map */
