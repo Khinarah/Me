@@ -6,8 +6,7 @@ body {
 
     /* A FINIR */
     background: radial-gradient($purple, $light-purple, white);
-    animation-name: studiesAnimated;
-    animation-iteration-count: infinite;
+    
 }
 
 .navbar {
@@ -58,6 +57,3 @@ button {
     }
 }
 
-@keyframes studiesAnimated {
-    
-}
