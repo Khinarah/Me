@@ -14,8 +14,10 @@ body {
 .navbar a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.navbar a:hover {
+.navbar a.nav-link:hover {
   color: white !important;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
 }
 .navbar svg {
   color: black;

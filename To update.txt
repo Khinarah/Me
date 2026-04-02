@@ -1,0 +1,9 @@
+- Plus de couleurs neutre 
+- Headers
+- Largeur des textes plus courts
+- Premier onglet ouvert d'emblée (ex Java)
+- inverser couleur border et background (ex : card)
+- blanc cassé en neutre possible 
+- background moins visible que l'élément à marquer
+- bouton des card à mettre au même niveau
+- body background : lien avec main color souhaité (pas complètement neutral)
