@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(#66005A, #AD5FAD, white);
+  background: linear-gradient(#AD5FAD, white);
 }
 
 .navbar a.nav-link {
@@ -7,6 +7,8 @@ body {
 }
 .navbar a.nav-link:hover {
   color: white !important;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
 }
 .navbar a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

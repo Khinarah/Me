@@ -20,8 +20,11 @@ body {
       &.navbar-brand {
           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
-      &:hover {
-          color: white !important;
+      &.nav-link {
+        &:hover {
+            color: white !important;
+            text-decoration: underline 3px;
+        }
       }
     }
     svg {

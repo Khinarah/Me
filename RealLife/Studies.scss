@@ -3,16 +3,17 @@ $light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
 body { 
-    background: radial-gradient($purple, $light-purple, white);
+    background: linear-gradient($light-purple, white);
 }
 
 .navbar {
     a {
         &.nav-link{
             color: $purple !important;
-    
             &:hover {
                 color: white !important;
+                text-decoration: underline 3px ;
+                
             }
         }
         &.navbar-brand {
