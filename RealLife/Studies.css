@@ -20,13 +20,13 @@ body {
   color: white !important;
 }
 
-button.nav-link {
-  color: white !important;
-  background-color: #66005A;
+.languages button.nav-link {
+  background-color: white;
+  color: #66005A;
 }
-button.active {
-  color: #66005A !important;
-  background-color: gray !important;
+.languages button.nav-link.active {
+  background-color: #66005A !important;
+  color: white;
 }
 
 .card {

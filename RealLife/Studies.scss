@@ -31,16 +31,15 @@ body {
 }
 
 
-button {
-    &.nav-link {
-        color: white !important;
-        background-color: $purple;
+.languages {
+    button.nav-link {
+        background-color: white;
+        color: $purple;
+        &.active {
+            background-color: $purple !important;
+            color: white;
+        }
     }
-    &.active {
-        color: $purple !important;
-        background-color: gray !important;
-    }
-
 }
 
 .card{
