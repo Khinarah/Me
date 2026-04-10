@@ -3,7 +3,7 @@ body {
 }
 
 .navbar a.nav-link {
-  color: #66005A !important;
+  color: #AD5FAD !important;
 }
 .navbar a.nav-link:hover {
   color: white !important;
@@ -14,19 +14,19 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .navbar svg {
-  color: #66005A !important;
+  color: #AD5FAD !important;
 }
 .navbar svg:hover {
   color: white !important;
 }
 
-button.nav-link {
-  color: white !important;
-  background-color: #66005A;
+.languages button.nav-link {
+  background-color: white;
+  color: #66005A;
 }
-button.active {
-  color: #66005A !important;
-  background-color: gray !important;
+.languages button.nav-link.active {
+  background-color: #66005A !important;
+  color: white;
 }
 
 .card {
