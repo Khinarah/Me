@@ -9,7 +9,7 @@ body {
 .navbar {
     a {
         &.nav-link{
-            color: $purple !important;
+            color: $light-purple !important;
             &:hover {
                 color: white !important;
                 text-decoration: underline 3px ;
@@ -22,7 +22,7 @@ body {
     }
 
     svg {
-        color: $purple !important;
+        color: $light-purple !important;
         
         &:hover {
             color: white !important;
