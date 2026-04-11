@@ -2,14 +2,9 @@ $purple : #66005A ;
 $light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
-header{
-    color: $purple;
-}
-
 body {
     width: 100%;
     background: radial-gradient($purple, black);
-    color: $light-purple;
 }
 
 .navbar {
@@ -22,22 +17,18 @@ body {
       }
       &.nav-link {
         &:hover {
-            color: white !important;
             text-decoration: underline 3px;
         }
       }
     }
     svg {
-        color: black;
-        &:hover {
-            color: white !important;
-        }
+        color: white;
     }
 }
 
 .btn {
     background-color: $purple;
-
+    
     &:hover {
         color: $purple !important;
         background-color: white;

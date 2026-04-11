@@ -1,23 +1,19 @@
 body {
-  background: linear-gradient(#AD5FAD, white);
+  background: radial-gradient(#66005A, black);
 }
 
-.navbar a.nav-link {
-  color: #AD5FAD !important;
-}
-.navbar a.nav-link:hover {
-  color: white !important;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
+.navbar.navbar-expand-lg {
+  background-color: #66005A;
 }
 .navbar a.navbar-brand {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.navbar svg {
-  color: #AD5FAD !important;
+.navbar a.nav-link:hover {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
 }
-.navbar svg:hover {
-  color: white !important;
+.navbar svg {
+  color: white;
 }
 
 .languages button.nav-link {
