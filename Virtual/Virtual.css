@@ -1,11 +1,6 @@
-header {
-  color: #66005A;
-}
-
 body {
   width: 100%;
   background: radial-gradient(#66005A, black);
-  color: #AD5FAD;
 }
 
 .navbar.navbar-expand-lg {
@@ -15,15 +10,11 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .navbar a.nav-link:hover {
-  color: white !important;
   -webkit-text-decoration: underline 3px;
           text-decoration: underline 3px;
 }
 .navbar svg {
-  color: black;
-}
-.navbar svg:hover {
-  color: white !important;
+  color: white;
 }
 
 .btn {

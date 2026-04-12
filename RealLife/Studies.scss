@@ -3,31 +3,26 @@ $light-purple : #AD5FAD   ;
 $card-border-size : 2px ;
 
 body { 
-    background: linear-gradient($light-purple, white);
+    background: radial-gradient($purple, black);
 }
 
 .navbar {
-    a {
-        &.nav-link{
-            color: $light-purple !important;
-            &:hover {
-                color: white !important;
-                text-decoration: underline 3px ;
-                
-            }
-        }
-        &.navbar-brand {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
+    &.navbar-expand-lg {
+        background-color: $purple;
     }
-
-    svg {
-        color: $light-purple !important;
-        
+    a {
+      &.navbar-brand {
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      &.nav-link {
         &:hover {
-            color: white !important;
+            text-decoration: underline 3px;
         }
-    }   
+      }
+    }
+    svg {
+        color: white;
+    }
 }
 
 
