@@ -1,5 +1,5 @@
 body {
-  background-color: #66005A;
+  background: radial-gradient(#66005A, black);
 }
 
 h1.text-center {
