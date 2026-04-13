@@ -2,17 +2,24 @@ $purple : #66005A ;
 $light-purple : #AD5FAD   ;
 
 body {
-    background-color: $purple;
+    background: radial-gradient( white, $purple, black);
 }
 
 h1.text-center {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btn.btn-light {
+.btn.btn-purple {
     background-color: $light-purple;
-
+    color: white;
     &:hover {
         background-color: white;
+        color: $purple;
     }
 }   
+
+section {
+    border: $light-purple solid;
+    background: radial-gradient($purple, black);
+
+}

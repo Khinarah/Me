@@ -1,14 +1,21 @@
 body {
-  background-color: #66005A;
+  background: radial-gradient(white, #66005A, black);
 }
 
 h1.text-center {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.btn.btn-light {
+.btn.btn-purple {
   background-color: #AD5FAD;
+  color: white;
 }
-.btn.btn-light:hover {
+.btn.btn-purple:hover {
   background-color: white;
+  color: #66005A;
+}
+
+section {
+  border: #AD5FAD solid;
+  background: radial-gradient(#66005A, black);
 }/*# sourceMappingURL=UnJeuneHomme.css.map */
