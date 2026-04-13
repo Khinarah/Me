@@ -18,4 +18,9 @@ h1.text-center {
 section {
   border: #AD5FAD solid;
   background: radial-gradient(#66005A, black);
+}
+
+.profilimg {
+  width: 30rem;
+  height: auto;
 }/*# sourceMappingURL=UnJeuneHomme.css.map */
