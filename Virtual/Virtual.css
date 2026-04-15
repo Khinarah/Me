@@ -7,7 +7,7 @@ body {
   background-color: #66005A;
 }
 .navbar a.navbar-brand {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: fantasy;
 }
 .navbar a.nav-link:hover {
   -webkit-text-decoration: underline 3px;

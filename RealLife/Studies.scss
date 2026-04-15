@@ -12,7 +12,7 @@ body {
     }
     a {
       &.navbar-brand {
-          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: fantasy;
       }
       &.nav-link {
         &:hover {
@@ -30,6 +30,10 @@ body {
     button.nav-link {
         background-color: white;
         color: $purple;
+        &:hover {
+            background-color: $light-purple;
+            color: white;
+        }
         &.active {
             background-color: $purple !important;
             color: white;

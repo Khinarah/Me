@@ -2,17 +2,17 @@ body {
   background: radial-gradient(white, #66005A, black);
 }
 
-h1.text-center {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+h1 {
+  font-family: fantasy;
 }
 
 .btn.btn-purple {
-  background-color: #AD5FAD;
+  background-color: rgb(147, 45, 140);
   color: white;
 }
 .btn.btn-purple:hover {
-  background-color: white;
-  color: #66005A;
+  background-color: #AD5FAD;
+  color: white;
 }
 
 section {
