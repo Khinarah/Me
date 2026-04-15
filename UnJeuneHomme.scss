@@ -5,16 +5,16 @@ body {
     background: radial-gradient( white, $purple, black);
 }
 
-h1.text-center {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1{
+    font-family: fantasy;
 }
 
 .btn.btn-purple {
-    background-color: $light-purple;
+    background-color: rgb(147, 45, 140);
     color: white;
     &:hover {
-        background-color: white;
-        color: $purple;
+        background-color: $light-purple;
+        color: white;
     }
 }   
 
